@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teka Teki Silang</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="tts.js"></script>
+  </head>
+
+  <body onload="initializeScreen()">
+    <h1>Teka Teki Silang</h1>
+    <div id="leftBox">
+      <table id="puzzel"></table>
+    </div>
+    <div id="rightBox">
+      <table>
+        <tr>
+          <td><input class="butt" type="submit" value="Clear All" onclick="clearAllClicked()" /></td>
+          <td><input class="butt" type="submit" value="Check" onclick="checkClicked()" /></td>
+          <td><input class="butt" type="submit" value="Solve" onclick="solveClicked()" /></td>
+          <td><input class="butt" type="submit" value="Clue" onclick="clueClicked()" /></td>
+        </tr>
+      </table>
+    </div>
+    <table id="hintsTable">
+      <tr>
+        <td><strong>Mendatar:</strong></td>
+        <td><strong>Menurun:</strong></td>
+      </tr>
+      <tr>
+        <td>1. Singkatan dari bahasa pemrograman yang sering digunakan untuk pengembangan web.</td>
+        <td>1. Protokol yang digunakan untuk mengirim data dari server web ke browser.</td>
+      </tr>
+      <tr>
+        <td>2. Jika Anda ingin menggambarkan tampilan dan tata letak situs web, Anda akan menggunakan ini.</td>
+        <td>2. Kerangka kerja CSS yang populer yang memudahkan desain responsif dan menarik.</td>
+      </tr>
+      <tr>
+        <td>3. Untuk membuat interaksi dan fungsi pada situs web, Anda mungkin akan menggunakan bahasa pemrograman ini.</td>
+        <td>3. Struktur data yang sering digunakan untuk menyimpan informasi di web, seperti daftar, dalam JavaScript.</td>
+      </tr>
+      <tr>
+        <td>4. Ini adalah server yang mengelola permintaan dan respon HTTP di situs web.</td>
+        <td>4. Pustaka populer yang digunakan untuk memudahkan pengembangan web berbasis JavaScript.</td>
+      </tr>
+    </table>
+  </body>
+</html>
